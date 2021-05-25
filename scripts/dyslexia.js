@@ -6,3 +6,8 @@
 var reg=new RegExp("(chien)", "g");
 document.write("Chaîne d'origine : " + chaine + "<br>");
 document.write("Chaîne traitée : " + chaine.replace(reg,"<span style='background-color:yellow'>$1</span>") + "<br>"); */
+
+//recup en string les contenus visés
+//événement
+//si événement function
+      //regex sur contenu visé
