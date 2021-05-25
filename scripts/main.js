@@ -1,1 +1,2 @@
-let fontSizeBtn = document.getElementById('fontSizeBtn')
+let fontSizeBtn = document.getElementById('fontSizeBtn');
+let fontSizeBtnValue
