@@ -1,0 +1,21 @@
+@font-face 
+{
+    font-family: "OpenSans";
+    src: url(../assets\Open_Sans/OpenSans-Bold.ttf),
+    url(../assets\Open_Sans/OpenSans-BoldItalic.ttf),
+    url(../assets\Open_Sans/OpenSans-ExtraBold.ttf),
+    url(../assets\Open_Sans/OpenSans-ExtraBoldItalic.ttf),
+    url(../assets\Open_Sans/OpenSans-Italic.ttf),
+    url(../assets\Open_Sans/OpenSans-Light.ttf),
+    url(../assets\Open_Sans/OpenSans-LightItalic.ttf),
+    url(../assets\Open_Sans/OpenSans-Regular.ttf),
+    url(../assets\Open_Sans/OpenSans-SemiBold.ttf),
+    url(../assets\Open_Sans/OpenSans-SemiBoldItalic.ttf);
+}
+
+*{
+    font-family: 'OpenSans';
+}
+.p{
+    font-size: 48px;
+}
