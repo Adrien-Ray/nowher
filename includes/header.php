@@ -13,19 +13,27 @@
 <body>
 <header>
     <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site"></a>
-        <nav>
-            <h1>La démence</h1>
-            <ul>
-            <li>Explications</li>
+    <div id="hamb_menu">
+        <div id="hamb_menu_btn">
+            <div class="barre" id='barre1'></div>
+            <div class="barre" id='barre2'></div>
+            <div class="barre" id='barre3'></div>
+        </div>
+    </div> <!-- fermeture hamb_menu -->
+    <nav id="classic_menu">
+        <div class="classic_menu" id="rubrique1"><h1>La démence</h1>
+        <ul id="sous-menu1">
+            <li><a href="articledemence.php">Explications</a></li>
             <li>Données chiffrées</li>
-            </ul>
-        </nav>
-        <nav>
-            <h1>Les solutions</h1>
-            <ul>
+        </ul>
+        </div>
+        <div class="classic_menu" id="rubrique2"><h1>Les solutions</h1>
+        <ul id="sous-menu2.">
             <li>pour les familles</li>
             <li>pour les développeurs</li>
-            </ul>
-        </nav>
+        </ul>
+        </div>
+    </nav>
 </header>
-<div class="content"></div>
+<div class="content">
+<?php include '../includes/footer.php';?>
