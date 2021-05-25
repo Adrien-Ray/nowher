@@ -12,10 +12,20 @@
 </head>
 <body>
 <header>
-<img src="../assets/logo/nowhere.png" alt="logo du site">
-<ul>
-    <li>La démence</li>
-    <li>Les solutions</li>
-</ul>
+    <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site"></a>
+        <nav>
+            <h1>La démence</h1>
+            <ul>
+            <li>Explications</li>
+            <li>Données chiffrées</li>
+            </ul>
+        </nav>
+        <nav>
+            <h1>Les solutions</h1>
+            <ul>
+            <li>pour les familles</li>
+            <li>pour les développeurs</li>
+            </ul>
+        </nav>
 </header>
-<div class="content">
+<div class="content"></div>

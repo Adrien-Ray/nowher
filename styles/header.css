@@ -16,20 +16,27 @@
 *{
     font-family: "OpenSans";
     text-decoration: none;
+    border: solid 1px gray;
 }
 header{
-    display: flex; 
+    display: flex;
+    justify-content: space-between; 
     background-color: #fffeee;
 }
 header img{
-width: 10%;
+width: 10rem;
+height: auto;
 }
-ul{
+nav{
     display: flex;
+    align-items: center;
     list-style-type: none;
-align-items: center;
 }
-li:hover{
+h1:hover{
     background-color: #000222;
     color: white;
+}
+li{
+    list-style-type: none;
+    display: none;
 }
