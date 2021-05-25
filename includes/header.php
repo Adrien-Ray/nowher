@@ -15,11 +15,7 @@
 <img src="../assets/logo/nowhere.png" alt="logo du site">
 <ul>
     <li>La démence</li>
-    <li>les solutions</li>
+    <li>Les solutions</li>
 </ul>
 </header>
-<div class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore sequi consectetur soluta impedit maxime ullam qui laboriosam sapiente, maiores, in, incidunt aliquid autem! Numquam deserunt ducimus voluptatum esse consectetur ut!
-Nisi ipsum corrupti suscipit quidem, et maxime magni eos expedita illo cum quibusdam sint atque explicabo odio sapiente! Libero itaque assumenda dicta veniam suscipit voluptate, et quaerat blanditiis doloribus nemo?</div>
-<button id="fontSizeBtn">cliquer</button>
-
-    
+<div class="content">

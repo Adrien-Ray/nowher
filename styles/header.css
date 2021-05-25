@@ -1,21 +1,35 @@
 @font-face 
 {
     font-family: "OpenSans";
-    src: url(../assets\Open_Sans/OpenSans-Bold.ttf),
-    url(../assets\Open_Sans/OpenSans-BoldItalic.ttf),
-    url(../assets\Open_Sans/OpenSans-ExtraBold.ttf),
-    url(../assets\Open_Sans/OpenSans-ExtraBoldItalic.ttf),
-    url(../assets\Open_Sans/OpenSans-Italic.ttf),
-    url(../assets\Open_Sans/OpenSans-Light.ttf),
-    url(../assets\Open_Sans/OpenSans-LightItalic.ttf),
-    url(../assets\Open_Sans/OpenSans-Regular.ttf),
-    url(../assets\Open_Sans/OpenSans-SemiBold.ttf),
-    url(../assets\Open_Sans/OpenSans-SemiBoldItalic.ttf);
+    src: url(../assets/Open_Sans/OpenSans-Bold.ttf),
+    url(../assets/Open_Sans/OpenSans-BoldItalic.ttf),
+    url(../assets/Open_Sans/OpenSans-ExtraBold.ttf),
+    url(../assets/Open_Sans/OpenSans-ExtraBoldItalic.ttf),
+    url(../assets/Open_Sans/OpenSans-Italic.ttf),
+    url(../assets/Open_Sans/OpenSans-Light.ttf),
+    url(../assets/Open_Sans/OpenSans-LightItalic.ttf),
+    url(../assets/Open_Sans/OpenSans-Regular.ttf),
+    url(../assets/Open_Sans/OpenSans-SemiBold.ttf),
+    url(../assets/Open_Sans/OpenSans-SemiBoldItalic.ttf);
 }
 
 *{
-    font-family: 'OpenSans';
+    font-family: "OpenSans";
+    text-decoration: none;
 }
-.p{
-    font-size: 48px;
+header{
+    display: flex; 
+    background-color: #fffeee;
+}
+header img{
+width: 10%;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+align-items: center;
+}
+li:hover{
+    background-color: #000222;
+    color: white;
 }
