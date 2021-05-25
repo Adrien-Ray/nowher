@@ -1,0 +1,5 @@
+   <script src="../scripts/dyslexia.js"></script> 
+   <script src="../scripts/fontsize.js"></script> 
+   <script src="../scripts/vocal.js"></script> 
+</body>
+</html>
