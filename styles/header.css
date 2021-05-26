@@ -17,16 +17,12 @@ header {
   display: flex;
   background-color: #fffeee;
 }
-.youtube{
-  display: flex;
-  justify-content: center;
-}
 header img {
-  width: 10rem;
+  width: 12rem;
   height: auto;
 }
 
-nav {
+#classic_menu {
   display: flex;
   width: 100%;
   align-items: center;
@@ -35,7 +31,10 @@ nav {
 }
 
 .classic_menu {
-  padding: 0 6rem;
+/*   padding: 0 6rem; */
+  width: 30%;
+  padding-left: 3px;
+  text-align: center;
   cursor: pointer;
   user-select: none;
 }
@@ -44,7 +43,7 @@ nav {
   color: white;
 }
 
-ul{
+#sous-menu1, #sous-menu2{
   list-style-type: none;
   display: none;
 }
@@ -56,7 +55,6 @@ ul{
     color: #000222;
     background-color: white;
 }
-
 
 #hamb_menu {
   position: absolute;

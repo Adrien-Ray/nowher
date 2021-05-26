@@ -56,7 +56,7 @@ function unroll(){
     menu.style.display = 'block'; 
 } */
 
-btn2.addEventListener('click',unroll2);
+btn2.addEventListener('mouseover',unroll2);
 
 
 function unroll2(){
@@ -81,7 +81,7 @@ function unroll2(){
     }
 }
 
-btn3.addEventListener('click',unroll3);
+btn3.addEventListener('mouseover',unroll3);
 
 function unroll3(){
     if (counter == 'closed') {
