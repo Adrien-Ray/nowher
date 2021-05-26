@@ -2,6 +2,7 @@
 * {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  border: 1px solid grey;
 }
 a{
     color: inherit;
@@ -17,14 +18,22 @@ a:hover{
 
 header {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
   background-color: #fffeee;
 }
 header img {
   width: 12rem;
   height: auto;
+<<<<<<< HEAD
   padding-left: 10%;
 }
+=======
+  margin-left: 1rem;
+>>>>>>> eb963e8cb3a82ca69881a361d6c743cef32ffa0d
 
+}
+/* 
 #classic_menu {
   display: flex;
   width: 100%;
@@ -34,9 +43,8 @@ header img {
 }
 
 .classic_menu {
-/*   padding: 0 6rem; */
   width: 30%;
-  padding-left: 3px;
+  padding: 0 3px;
   text-align: center;
   cursor: pointer;
   user-select: none;
@@ -57,8 +65,15 @@ header img {
 #sous-menu1 li:hover, #sous-menu2 li:hover{
     color: #000222;
     background-color: white;
+    display: inline;
 }
-
+#rubrique1:hover  #sous-menu1{
+  display: block;
+}
+#rubrique2:hover  #sous-menu2{
+  display: block;
+}
+ */
 #hamb_menu {
   position: absolute;
   top: 2%;
@@ -72,20 +87,105 @@ header img {
   margin: 5px 0;
   border-radius: 25px;
 }
+.navbar {
+  overflow: hidden;
+  display: flex;
 
-@media screen and (max-width: 800px) {
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 24px;  
+  border: none;
+  color: #000222;
+  padding: 33px 16px;
+  background-color: inherit;
+  margin: 0 5rem;
+}
+#dropbtn2{
+  margin-right: 10rem;
+}
+
+.dropdown:hover{
+  background-color: #000222;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #000222;
+  color : white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffeee;
+  color: #000222;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.row{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.column {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.column a {
+  float: none;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #000222;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
   #hamb_menu {
     display: block;
   }
 
-  #classic_menu {
+  .dropdown {
     display: none;
-  }
-
-  .classic_menu li {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
   }
 
   .cross1transform {
@@ -107,3 +207,4 @@ header img {
   }
 }
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */
+
