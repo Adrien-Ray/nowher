@@ -13,3 +13,10 @@ var chaineSpand = chaineSpanb.replace(/[d]/g, '===d===');
 var chaineSpanb2 = chaineSpand.replace(/===b===/g, '<span class="dysb">b</span>');
 var chaineSpand2 = chaineSpanb2.replace(/===d===/g, '<span class="dysb">d</span>');
 console.log(chaineSpand2); 
+
+
+
+// SEPARATE TO THE AUTRE SCRIPT
+
+let content = document.activeElement.innerHTML;
+console.log(content);
