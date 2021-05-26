@@ -24,16 +24,16 @@
         <div class="classic_menu" id="rubrique1"><h1>La démence</h1>
         <ul id="sous-menu1">
             <li><a href="articledemence.php">Explications</a></li>
-            <li>Données chiffrées</li>
+            <li><a href="donnees-chiffrees.php">Données chiffrées</a></li>
         </ul>
         </div>
         <div class="classic_menu" id="rubrique2"><h1>Les solutions</h1>
-        <ul id="sous-menu2.">
-            <li>pour les familles</li>
-            <li>pour les développeurs</li>
+        <ul id="sous-menu2">
+        <li><a href="solutionfamille.php">pour les familles</a></li>
+        <li><a href="solutiondev.php">pour les développeurs</a></li>
         </ul>
         </div>
     </nav>
 </header>
 <div class="content">
-<?php include '../includes/footer.php';?>
+
