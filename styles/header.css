@@ -7,12 +7,20 @@
   text-decoration: none;
 }
 a{
-    text-decoration: none;
+    color: inherit;
+}
+.content{
+  margin: 0 2%;
+  background-color: blue;
 }
 
 header {
   display: flex;
   background-color: #fffeee;
+}
+.youtube{
+  display: flex;
+  justify-content: center;
 }
 header img {
   width: 10rem;
@@ -28,8 +36,9 @@ nav {
 }
 
 .classic_menu {
-  padding: 0 3rem;
+  padding: 0 6rem;
   cursor: pointer;
+  user-select: none;
 }
 .classic_menu:hover {
   background-color: #000222;
@@ -40,8 +49,13 @@ ul{
   list-style-type: none;
   display: none;
 }
+#sous-menu1 li, #sous-menu2 li{
+  padding: 3px;
+  text-decoration: none;
+}
 #sous-menu1 li:hover, #sous-menu2 li:hover{
-    color: grey;
+    color: #000222;
+    background-color: white;
 }
 
 
