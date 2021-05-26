@@ -1,16 +1,18 @@
-@font-face {
-  font-family: "OpenSans";
-  src: url(../assets/Open_Sans/OpenSans-Bold.ttf), url(../assets/Open_Sans/OpenSans-BoldItalic.ttf), url(../assets/Open_Sans/OpenSans-ExtraBold.ttf), url(../assets/Open_Sans/OpenSans-ExtraBoldItalic.ttf), url(../assets/Open_Sans/OpenSans-Italic.ttf), url(../assets/Open_Sans/OpenSans-Light.ttf), url(../assets/Open_Sans/OpenSans-LightItalic.ttf), url(../assets/Open_Sans/OpenSans-Regular.ttf), url(../assets/Open_Sans/OpenSans-SemiBold.ttf), url(../assets/Open_Sans/OpenSans-SemiBoldItalic.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 * {
-  font-family: "OpenSans";
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
 }
 a{
     color: inherit;
+    transition-duration: 0.35s;
+}
+a:hover{
+  color: gray;
+  transition-duration: 0.35s;
 }
 .content{
-  margin: 0 2%;
+  margin: 0 10%;
 }
 
 header {
@@ -20,6 +22,7 @@ header {
 header img {
   width: 12rem;
   height: auto;
+  padding-left: 10%;
 }
 
 #classic_menu {
