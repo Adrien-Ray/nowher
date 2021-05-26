@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(../assets/Open_Sans/OpenSans-Bold.ttf), url(../assets/Open_Sans/OpenSans-BoldItalic.ttf), url(../assets/Open_Sans/OpenSans-ExtraBold.ttf), url(../assets/Open_Sans/OpenSans-ExtraBoldItalic.ttf), url(../assets/Open_Sans/OpenSans-Italic.ttf), url(../assets/Open_Sans/OpenSans-Light.ttf), url(../assets/Open_Sans/OpenSans-LightItalic.ttf), url(../assets/Open_Sans/OpenSans-Regular.ttf), url(../assets/Open_Sans/OpenSans-SemiBold.ttf), url(../assets/Open_Sans/OpenSans-SemiBoldItalic.ttf);
+}
+* {
+  font-family: "OpenSans";
+  text-decoration: none;
+}
+a{
+    color: inherit;
+}
+.content{
+  margin: 0 2%;
+  background-color: blue;
+}
+
+header {
+  display: flex;
+  background-color: #fffeee;
+}
+.youtube{
+  display: flex;
+  justify-content: center;
+}
+header img {
+  width: 10rem;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.classic_menu {
+  padding: 0 6rem;
+  cursor: pointer;
+  user-select: none;
+}
+.classic_menu:hover {
+  background-color: #000222;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+  display: none;
+}
+#sous-menu1 li, #sous-menu2 li{
+  padding: 3px;
+  text-decoration: none;
+}
+#sous-menu1 li:hover, #sous-menu2 li:hover{
+    color: #000222;
+    background-color: white;
+}
+
+
+#hamb_menu {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  display: none;
+}
+#hamb_menu .barre {
+  background-color: #000222;
+  width: 60px;
+  height: 10px;
+  margin: 5px 0;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  #hamb_menu {
+    display: block;
+  }
+
+  #classic_menu {
+    display: none;
+  }
+
+  .classic_menu li {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .cross1transform {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 14px;
+    background-color: #2c5f8f;
+  }
+
+  .cross2transform {
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 2px;
+    background-color: #c53c3c;
+  }
+
+  .barre {
+    transition: 0.5s;
+  }
+}
+/*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */
