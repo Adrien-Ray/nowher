@@ -1,5 +1,13 @@
 <?php include "../includes/header.php"; ?>
 
+<button id="fontSizeBtn">function !</button>
+
+<style>
+
+
+
+</style>
+
 
 
     <div class = "articledemence">
@@ -10,11 +18,11 @@
             <img src="../assets/images/icons/imgarticle.svg" alt="" class="article__img">
     </div>
     <div class ="articledemence__texte">
-    <p>
+    <p class="p">
     La démence est un trouble neurocognitif qui se caractérise par des déficits cognitifs divers
     variant en fonction du type de démence (définis par leur cause). La maladie d’Alzheimer est le 
     type de démence le plus fréquent.</p> 
-    <p> Il arrive à chacun d’entre nous de commettre des erreurs ou des étourderies. Il peut arriver que 
+    <p class="p"> Il arrive à chacun d’entre nous de commettre des erreurs ou des étourderies. Il peut arriver que 
     l’on oublie ou l’on a bien pu déposer un objet ou un autre ou que nous avons déjà raconter la 
     même histoire à un de nos proches. Ces comportements peuvent généralement être expliqués 
     par une saturation d’informations due à nos modes de vie actifs et stressants et ne sont bien 
@@ -23,7 +31,7 @@
     rapidement les informations qui lui parviennent. Ce type de modifications de fonctionnement du 
     cerveau est normal et n’interfère que peu avec la vie quotidienne. A l’inverse, la démence est 
     invalidante et n’est pas attribuée au processus normal de vieillissement.</p>
-     <p> Bien que la démence ait tendance à se manifester différemment chez chaque individu, nous 
+     <p class="p"> Bien que la démence ait tendance à se manifester différemment chez chaque individu, nous 
     pouvons recenser un certain nombre de symptômes fréquents commun aux personnes 
     atteintes : </p>
     
@@ -37,7 +45,7 @@
         <li> Une diminution de la capacité à se concentrer ou à rester concentrer </li>
         <li> Une incapacité ou des difficultés à planifier et effectuer des tâches en plusieurs étapes (comme compléter des documents administratifs). </li>
     </ul>
-    <p> Par ailleurs, certains types de démences peuvent toucher des personnes plus jeunes que d’autres </p>
+    <p class="p"> Par ailleurs, certains types de démences peuvent toucher des personnes plus jeunes que d’autres </p>
     <h4> Principaux types de démence</h4>
     <ul>
         <li> La maladie d’Alzheimer </li>
@@ -47,9 +55,9 @@
         <li> La démence mixte </li>
     </ul>
     <h4> Caractéristiques & troubles associés </h4>
-    <p> Les personnes atteintes de démences sont susceptibles de ne pas avoir conscience de leur perte de mémoire. Elles sont aussi très sensibles au stress physique et psychologique, qui peut 
+    <p class="p"> Les personnes atteintes de démences sont susceptibles de ne pas avoir conscience de leur perte de mémoire. Elles sont aussi très sensibles au stress physique et psychologique, qui peut 
     accroître leurs déficits et les symptômes qui y sont associés.</p>
-    <p> Le départ d’une démence varie selon la cause qui en est à l’origine mais il est généralement très 
+    <p class="p"> Le départ d’une démence varie selon la cause qui en est à l’origine mais il est généralement très 
     tardif. Elle est plus fréquente après 85 ans, et rarement présente chez les enfants ou les 
     adolescents. On estime que la démence de type Alzheimer touche environ 2 à 4% de la 
     population de plus de 65 ans. Les démences d’autres types sont beaucoup moins fréquents. Ces 
@@ -59,6 +67,8 @@
     <a href="https://ressourcessante.salutbonjour.ca/condition/getcondition/demence">Ressources Santé</a>
     <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence">Psychomédia</a>
     </div>
+
+    
 
 <?php include "../includes/footer.php"; ?>
 
