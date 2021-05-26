@@ -25,14 +25,10 @@ header {
 header img {
   width: 12rem;
   height: auto;
-<<<<<<< HEAD
   padding-left: 10%;
 }
-=======
-  margin-left: 1rem;
->>>>>>> eb963e8cb3a82ca69881a361d6c743cef32ffa0d
 
-}
+
 /* 
 #classic_menu {
   display: flex;
