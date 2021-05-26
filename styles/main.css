@@ -1,0 +1,33 @@
+.articledemence{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+}
+.donnees-chiffrees{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+}
+.article__img{
+    width: 400px;
+    height: auto;
+}
+.articledemence__sous_titre{
+    margin-top: 215px;
+}
+.donnees-chiffrees__titre{
+    margin-top: 215px;
+}
+.articledemence__texte{
+    font-size: 30px;
+
+}
+li{
+    margin-bottom: 2rem;
+}
+.articledemence__source{
+    font-size: 30px;
+    margin-top: 5rem;
+}

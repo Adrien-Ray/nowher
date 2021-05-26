@@ -12,14 +12,28 @@
 </head>
 <body>
 <header>
-<img src="../assets/logo/nowhere.png" alt="logo du site">
-<ul>
-    <li>La démence</li>
-    <li>les solutions</li>
-</ul>
+    <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site"></a>
+    <div id="hamb_menu">
+        <div id="hamb_menu_btn">
+            <div class="barre" id='barre1'></div>
+            <div class="barre" id='barre2'></div>
+            <div class="barre" id='barre3'></div>
+        </div>
+    </div> <!-- fermeture hamb_menu -->
+    <nav id="classic_menu">
+        <div class="classic_menu" id="rubrique1"><h1>La démence</h1>
+        <ul id="sous-menu1">
+            <li><a href="articledemence.php">Explications</a></li>
+            <li><a href="donnees-chiffrees.php">Données chiffrées</a></li>
+        </ul>
+        </div>
+        <div class="classic_menu" id="rubrique2"><h1>Les solutions</h1>
+        <ul id="sous-menu2">
+        <li><a href="solutionfamille.php">pour les familles</a></li>
+        <li><a href="solutiondev.php">pour les développeurs</a></li>
+        </ul>
+        </div>
+    </nav>
 </header>
-<div class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore sequi consectetur soluta impedit maxime ullam qui laboriosam sapiente, maiores, in, incidunt aliquid autem! Numquam deserunt ducimus voluptatum esse consectetur ut!
-Nisi ipsum corrupti suscipit quidem, et maxime magni eos expedita illo cum quibusdam sint atque explicabo odio sapiente! Libero itaque assumenda dicta veniam suscipit voluptate, et quaerat blanditiis doloribus nemo?</div>
-<button id="fontSizeBtn">cliquer</button>
+<div class="content">
 
-    
