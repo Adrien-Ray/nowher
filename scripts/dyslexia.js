@@ -2,8 +2,12 @@ function dislex(str) {
       return str
             .replace(/[b]/g, '===b===')
             .replace(/[d]/g, '===d===')
+            .replace(/[B]/g, '===B===')
+            .replace(/[D]/g, '===D===')
             .replace(/===b===/g, '<span class="dysb">b</span>')
-            .replace(/===d===/g, '<span class="dysd">d</span>');
+            .replace(/===d===/g, '<span class="dysd">d</span>')
+            .replace(/===B===/g, '<span class="dysb">B</span>')
+            .replace(/===D===/g, '<span class="dysd">D</span>');
 }
 function dislexNodes(nodes) {
       for (let index = 0; index < nodes.childNodes.length; index++) {
