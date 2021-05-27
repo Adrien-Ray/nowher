@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-let fontSizeBtn = document.getElementById('fontSizeBtn');
-let fontSizeBtnValue
-=======
 // MENU HAMBURGER
 const btn = document.getElementById('hamb_menu_btn');
 const dropbtn1 = document.getElementById('menumobile');
@@ -41,7 +37,6 @@ function unroll(){
 /* if(screen.width <=800){
     menu.style.display = 'block'; 
 } */
-<<<<<<< HEAD
 
 btn2.addEventListener('click',unroll2);
 
@@ -91,6 +86,3 @@ function unroll3(){
         cross3.style.bottom = '0'; */
     }
 }
->>>>>>> f0b1258e3bb35b11930631d8f9b1df7cd56c9927
-=======
->>>>>>> eb963e8cb3a82ca69881a361d6c743cef32ffa0d
