@@ -4,11 +4,13 @@
     <div class = "article_image_jb">
     <figure>   
     <img src="../assets/images/icons/emojijb.svg" alt="" class="article__img_jb">
+    <figcaption>Jean Baptiste</figcaption>
     </figure>
     </div>
         <div class = "contact_mid">
             <figure>
             <img src="../assets/images/icons/emojinathan.svg" alt="" class="article__img_nathan">
+            <figcaption>Nathan</figcaption>
             </figure>
             <figure>
                 <img src="../assets/images/icons/note_book.svg" alt="" class="article__img_note_book">

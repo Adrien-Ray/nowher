@@ -67,7 +67,6 @@ li{
 .articledemence__source{
     font-size: 30px;
     margin-top: 5rem;
-<<<<<<< HEAD
 }
 .article_donnees-chirfrees{
     font-size: 30px;
@@ -98,9 +97,10 @@ li{
     flex-direction: row;
     justify-content: center;
 }
-.contact_mid img{
+.contact_mid figure{
     margin: 40px;
 }
+
 .fireowl{
     padding-left: 10px;
     font-size: 25px;
@@ -120,6 +120,4 @@ span.dysb{
 }
 span.dysd{
 	background-color:#002fff7a !important;
-=======
->>>>>>> 4018de88a1f9cbc4d2330991b887ebfa8e066a24
 }
