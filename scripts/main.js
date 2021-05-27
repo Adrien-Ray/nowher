@@ -5,14 +5,13 @@ let fontSizeBtnValue
 // MENU HAMBURGER
 
 const btn = document.getElementById('hamb_menu_btn');
-const menu = document.getElementById('classic_menu');
+const dropbtn1 = document.getElementById('dropbtn1');
+const dropbtn2 = document.getElementById('dropbtn2');
+const dropcontent1 = document.getElementById('dropcontent1');
+const dropcontent2 = document.getElementById('dropcontent2');
 let cross1 = document.getElementById('barre1');
 let cross2 = document.getElementById('barre2');
 let cross3 = document.getElementById('barre3');
-const btn2 = document.getElementById('rubrique1');
-const btn3 = document.getElementById('rubrique2');
-const sousMenu1 = document.getElementById('sous-menu1');
-const sousMenu2 = document.getElementById('sous-menu2');
 let counter = 'closed';
 
 
@@ -20,9 +19,10 @@ btn.addEventListener('click',unroll);
 
 function unroll(){
     if (counter == 'closed') {
-        menu.style.display = 'block';
-        sousMenu1.style.display = 'block';
-        sousMenu2.style.display = 'block';
+        dropbtn1.style.display = 'block';       
+        dropbtn2.style.display = 'block';
+        dropcontent1.style.display = 'block';
+        dropcontent2.style.display = 'block';
         counter = 'open';
         console.log(counter);
         cross1.classList.toggle("cross1transform");
@@ -30,9 +30,8 @@ function unroll(){
         cross2.style.display = 'none';
         }
         else{
-        menu.style.display = 'none';
-        sousMenu1.style.display = 'none';
-        sousMenu2.style.display = 'none';
+        dropbtn1.style.display = 'none';       
+        dropbtn2.style.display = 'none';
         counter = 'closed';
         console.log(counter);
         cross1.style.width = '60px';
@@ -59,6 +58,7 @@ function unroll(){
 /* if(screen.width <=800){
     menu.style.display = 'block'; 
 } */
+<<<<<<< HEAD
 
 btn2.addEventListener('click',unroll2);
 
@@ -109,3 +109,5 @@ function unroll3(){
     }
 }
 >>>>>>> f0b1258e3bb35b11930631d8f9b1df7cd56c9927
+=======
+>>>>>>> eb963e8cb3a82ca69881a361d6c743cef32ffa0d

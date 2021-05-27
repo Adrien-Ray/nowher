@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,7 +17,7 @@
 </head>
 <body>
 <header>
-    <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site"></a>
+    <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site" id="websitelogo"></a>
     <div id="hamb_menu">
         <div id="hamb_menu_btn">
             <div class="barre" id='barre1'></div>
@@ -21,20 +25,30 @@
             <div class="barre" id='barre3'></div>
         </div>
     </div> <!-- fermeture hamb_menu -->
-    <nav id="classic_menu">
-        <div class="classic_menu" id="rubrique1"><h1>La démence</h1>
-        <ul id="sous-menu1">
-            <li><a href="articledemence.php">Explications</a></li>
-            <li><a href="donnees-chiffrees.php">Données chiffrées</a></li>
-        </ul>
-        </div>
-        <div class="classic_menu" id="rubrique2"><h1>Les solutions</h1>
-        <ul id="sous-menu2">
-        <li><a href="solutionfamille.php">pour les familles</a></li>
-        <li><a href="solutiondev.php">pour les développeurs</a></li>
-        </ul>
-        </div>
-    </nav>
+        <div class="dropdown" id="dropbtn1">
+        <button class="dropbtn">La démence 
+        </button>
+        <div class="dropdown-content" id="dropcontent1">  
+        <div class="row">
+            <div class="column">
+            <a href="articledemence.php">Explications</a>
+            <a href="donnees-chiffrees.php">Données chiffrées</a>
+            </div> <!-- column -->
+        </div><!-- ferme row -->
+        </div><!-- ferme dropdown content -->
+    </div> <!-- ferme dropdown -->
+    <div class="dropdown" id="dropbtn2">
+        <button class="dropbtn">Les solutions 
+        </button>
+        <div class="dropdown-content" id="dropcontent2">  
+        <div class="row">
+            <div class="column">
+            <a href="solutionfamille.php">pour les familles</a>
+            <a href="solutiondev.php">pour les développeurs</a>
+            </div> <!-- column -->
+        </div><!-- ferme row -->
+        </div><!-- ferme dropdown content -->
+    </div> <!-- ferme dropdown -->
 </header>
 <div class="content">
 
