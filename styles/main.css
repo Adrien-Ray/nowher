@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 
 
 /* articles */
 
 
-=======
-/*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
->>>>>>> 4018de88a1f9cbc4d2330991b887ebfa8e066a24
 .articledemence{
     display: flex;
     flex-direction: row;
@@ -67,7 +63,6 @@ li{
 .articledemence__source{
     font-size: 30px;
     margin-top: 5rem;
-<<<<<<< HEAD
 }
 .article_donnees-chirfrees{
     font-size: 30px;
@@ -120,6 +115,4 @@ span.dysb{
 }
 span.dysd{
 	background-color:#002fff7a !important;
-=======
->>>>>>> 4018de88a1f9cbc4d2330991b887ebfa8e066a24
 }
