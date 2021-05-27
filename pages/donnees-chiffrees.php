@@ -1,4 +1,5 @@
 <?php include "../includes/header.php"; ?>
+<?php include "../includes/sidebar.php"; ?>
 
 <div class = "donnees-chiffrees">
         <div>
