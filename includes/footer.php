@@ -8,19 +8,19 @@
 <?php
 if ($_SESSION['js1'] === '1') {
 ?>
-<script src="../scripts/dyslexia.js"></script>
+<script src="../scripts/fontsize.js"></script> 
 <h1>script 1</h1>
 <?php
 }
 if ($_SESSION['js2'] === '1') {
 ?>
-<script src="../scripts/fontsize.js"></script> 
+<script src="../scripts/vocal.js"></script> 
 <h1>script 2</h1>
 <?php
 }
 if ($_SESSION['js3'] === '1') {
 ?>
-<script src="../scripts/vocal.js"></script> 
+<script src="../scripts/dyslexia.js"></script>
 <h1>script 3</h1>
 <?php
 }
