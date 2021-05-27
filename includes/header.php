@@ -14,7 +14,7 @@ session_start();
     <link rel="stylesheet" href="../styles/header.css">
     <title>Nowher</title>
 </head>
-<body>
+<body onload="dislexNodes(document.body)">
 <header>
     <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site" id="websitelogo"></a>
     <div id="hamb_menu">
@@ -49,5 +49,15 @@ session_start();
         </div><!-- ferme dropdown content -->
     </div> <!-- ferme dropdown -->
 </header>
+    <div id="menumobile">
+        <h1>La démence</h1>
+<!--         <div class="link-demence"> -->
+        <a href="articledemence.php">Explications</a><br>
+        <a href="donnees-chiffrees.php">Données chiffrées</a>
+<!--         </div> -->
+        <h1>Les solutions</h1>
+        <a href="solutionfamille.php">pour les familles</a><br>
+        <a href="solutiondev.php">pour les développeurs</a>
+    </div>
 <div class="content">
 
