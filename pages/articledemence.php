@@ -60,5 +60,5 @@
     <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence">Psychomédia</a>
     </div>
 
-<?php include "../includes/footer.php"; ?>
+
 
