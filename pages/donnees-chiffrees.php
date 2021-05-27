@@ -1,5 +1,5 @@
 <?php include "../includes/header.php"; ?>
-
+<?php include "../includes/sidebar.php"; ?>
 <div class = "donnees-chiffrees">
         <div>
             <h4 class = "donnees-chiffrees__titre">La demence: Données chiffrées </h4>

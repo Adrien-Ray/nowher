@@ -1,0 +1,28 @@
+.sidebar {
+    width: 4em;
+    height: 200px;
+    position: fixed;
+    right: 20px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.problemea {
+    height: 33%;
+    background-color: #000222;
+    color: white;
+    text-align: center;
+    padding-top: 35%;
+    border-radius: 10px;
+}
+
+.problemeb {
+    height: 33%;
+    background-color: #000222;
+    color: white;
+    text-align: center;
+    padding-top: 0%;
+    border-radius: 10px;
+}
