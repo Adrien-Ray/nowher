@@ -5,7 +5,7 @@
 
     <div class = "articledemence">
         <div>
-            <h4 class = "articledemence__sous_titre">La demence qu'est ce que c'est ?</h4>
+            <h4 class = "articledemence__sous_titre">La démence, qu'est-ce que c'est ?</h4>
             <h4>Définition générale</h4>
         </div>
             <img src="../assets/images/icons/imgarticle.svg" alt="" class="article__img">
@@ -16,7 +16,7 @@
     variant en fonction du type de démence (définis par leur cause). La maladie d’Alzheimer est le 
     type de démence le plus fréquent.</p> 
     <p> Il arrive à chacun d’entre nous de commettre des erreurs ou des étourderies. Il peut arriver que 
-    l’on oublie ou l’on a bien pu déposer un objet ou un autre ou que nous avons déjà raconter la 
+    l’on oublie où l’on a bien pu déposer un objet ou un autre ou que nous avons déjà raconter la 
     même histoire à un de nos proches. Ces comportements peuvent généralement être expliqués 
     par une saturation d’informations due à nos modes de vie actifs et stressants et ne sont bien 
     souvent pas des signes de démence. Plus les gens vieillissent, plus la mémoire aura tendance à 
@@ -25,7 +25,7 @@
     cerveau est normal et n’interfère que peu avec la vie quotidienne. A l’inverse, la démence est 
     invalidante et n’est pas attribuée au processus normal de vieillissement.</p>
      <p> Bien que la démence ait tendance à se manifester différemment chez chaque individu, nous 
-    pouvons recenser un certain nombre de symptômes fréquents commun aux personnes 
+    pouvons recenser un certain nombre de symptômes fréquents communs aux personnes 
     atteintes : </p>
     
     <ul>
