@@ -178,7 +178,16 @@ header img {
 #menumobile{
   display: none;
 }
-
+footer{
+  background-color: #000222;
+  height: 5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 1rem 2rem;
+  display: flex;
+}
 @media screen and (max-width: 768px) {
   #hamb_menu {
     display: block;
@@ -220,6 +229,10 @@ header img {
 
   .barre {
     transition: 0.5s;
+  }
+  footer{
+flex-direction: column-reverse;
+align-items: flex-start;
   }
 }
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */
