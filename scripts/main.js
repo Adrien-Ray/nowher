@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-let fontSizeBtn = document.getElementById('fontSizeBtn');
-let fontSizeBtnValue
-=======
 // MENU HAMBURGER
 const btn = document.getElementById('hamb_menu_btn');
 const dropbtn1 = document.getElementById('menumobile');
@@ -9,7 +5,6 @@ let cross1 = document.getElementById('barre1');
 let cross2 = document.getElementById('barre2');
 let cross3 = document.getElementById('barre3');
 let counter = '1';
-
 
 btn.addEventListener('click',unroll);
 
@@ -34,14 +29,6 @@ function unroll(){
     }
 }
 
-/* window.addEventListener('resize', function(){
-
-}); */
-
-/* if(screen.width <=800){
-    menu.style.display = 'block'; 
-} */
-<<<<<<< HEAD
 
 btn2.addEventListener('click',unroll2);
 
@@ -91,6 +78,3 @@ function unroll3(){
         cross3.style.bottom = '0'; */
     }
 }
->>>>>>> f0b1258e3bb35b11930631d8f9b1df7cd56c9927
-=======
->>>>>>> eb963e8cb3a82ca69881a361d6c743cef32ffa0d
