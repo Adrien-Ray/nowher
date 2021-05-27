@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../styles/header.css">
     <title>Nowher</title>
 </head>
-<body>
+<body onload="dislexNodes(document.body)">
 <header>
     <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site"></a>
     <div id="hamb_menu">
