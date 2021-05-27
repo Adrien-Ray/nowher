@@ -17,8 +17,5 @@
         <li>18 % en Amérique</li>
         </ul>
     </div>
-
-
-
-
-
+    <?php require '../includes/footer.php';?>
+    

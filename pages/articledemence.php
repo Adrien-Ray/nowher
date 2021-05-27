@@ -60,6 +60,4 @@
     <a href="https://ressourcessante.salutbonjour.ca/condition/getcondition/demence">Ressources Santé</a>
     <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence">Psychomédia</a>
     </div>
-
-
-
+    <?php require '../includes/footer.php';?>

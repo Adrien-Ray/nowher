@@ -27,6 +27,7 @@ function unroll(){
         cross1.classList.toggle("cross1transform");
         cross3.classList.toggle("cross2transform");
         cross2.style.display = 'block';
+ 
     }
 }
 
