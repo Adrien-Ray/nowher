@@ -32,3 +32,15 @@ li{
     font-size: 30px;
     margin-top: 5rem;
 }
+@media screen and (max-width: 768px) {
+    .articledemence{
+        flex-direction: column-reverse;
+    }
+    .article__img{
+        max-width: 200px;
+        align-items: cenrer;
+    }
+    .articledemence__sous_titre{
+        margin-top: 0;
+    }
+}
