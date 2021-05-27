@@ -12,6 +12,7 @@ session_start();
     <link rel="shortcut icon" href="../assets/logo/nowhereblanc.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/sidebar.css">
     <title>Nowher</title>
 </head>
 <body onload="dislexNodes(document.body)">
