@@ -17,5 +17,6 @@ if (fontSizeBtnValue == 0) {
 }); */
 window.onload = function(){
     document.body.style.fontSize="2rem";
-    document.getElementsByClassName("sidebar").style.fontSize="0.8rem !important";
+    document.getElementsByClassName('sidebar').style.fontSize="0.5rem";
+    document.getElementsByClassName('sidebar').style.backgroundColor="red";
     } 
