@@ -1,15 +1,8 @@
-
 /* fonction btn size ! */
-let text = document.getElementsByClassName('articledemence__texte');
-
+/* let text = document.getElementsByClassName('articledemence__texte');
 let fontSizeBtn = document.getElementById('fontSizeBtn');
 let fontSizeBtnValue = 1;
-
 fontSizeBtn.addEventListener('click' ,function fontChangeSize()  {
-
-
-
-    
 if (fontSizeBtnValue == 0) {
     text.style.fontSize= '30px' ;
     fontSizeBtnValue = 1;
@@ -21,20 +14,8 @@ if (fontSizeBtnValue == 0) {
 } else {
     console.log(fontSizeBtnValue);
 }
-
-
-
-    
-})
-/* ------------------------------------------------------------------------ ! */
-
-/* Fonction vocal ! */
-
-
-
-
-
-
-
-
-/* ------------------------------------------------------------------------ ! */
+}); */
+window.onload = function(){
+    document.body.style.fontSize="2rem";
+    document.getElementsByClassName("sidebar").style.fontSize="0.8rem !important";
+    } 
