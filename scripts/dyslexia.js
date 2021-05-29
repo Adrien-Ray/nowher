@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded',dislexNodes(document.body));
 function dislex(str) {
       return str
             .replace(/[b]/g, '===b===')
