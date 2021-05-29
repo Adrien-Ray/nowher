@@ -15,7 +15,7 @@ session_start();
     <link rel="stylesheet" href="../styles/sidebar.css">
     <title>Nowher</title>
 </head>
-<body onload="optionScript()">
+<body onload="dislexNodes(document.body)">
 <header>
     <a href="index.php"><img src="../assets/logo/nowhere.png" alt="logo du site" id="websitelogo"></a>
     <div id="hamb_menu">

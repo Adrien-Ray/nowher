@@ -15,8 +15,10 @@ if (fontSizeBtnValue == 0) {
     console.log(fontSizeBtnValue);
 }
 }); */
+document.addEventListener('DOMContentLoaded',fontSize());
 function fontSize(){
     document.body.style.fontSize="2rem";
+    document.body.style.backgroundColor="green";
     document.getElementsByClassName('sidebar').style.fontSize="0.5rem";
     document.getElementsByClassName('sidebar').style.backgroundColor="red";
     } 
