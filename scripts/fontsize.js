@@ -15,7 +15,7 @@ if (fontSizeBtnValue == 0) {
     console.log(fontSizeBtnValue);
 }
 }); */
-window.onload = function(){
+function fontSize(){
     document.body.style.fontSize="2rem";
     document.getElementsByClassName('sidebar').style.fontSize="0.5rem";
     document.getElementsByClassName('sidebar').style.backgroundColor="red";

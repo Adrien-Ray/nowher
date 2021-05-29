@@ -87,3 +87,9 @@ function unroll3(){
         cross3.style.bottom = '0'; */
     }
 }
+
+// FUNCTION D'APPEL DES SCRIPTS OPTIONNELS
+function optionScript() {
+    dislexNodes(document.body);
+    fontSize();
+}
