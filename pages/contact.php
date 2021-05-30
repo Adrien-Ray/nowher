@@ -1,5 +1,4 @@
 <?php include "../includes/header.php"; ?>
-<?php include "../includes/sidebar.php"; ?>
 <h1 class ="contact">Contact</h1>
     <div class = "article_image_jb">
     <figure>   

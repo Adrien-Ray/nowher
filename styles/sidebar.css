@@ -26,3 +26,29 @@
     padding-top: 0%;
     border-radius: 10px;
 }
+@media screen and (max-width:800px){
+    .sidebar {
+        width: auto;
+        height: 100px;
+        position: relative;
+        display: flex;
+        right: 0;
+        top: 0;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2rem;
+
+    }
+    .insidebar{
+        width:33%;
+        padding: 1.5rem 0;
+        vertical-align: center;
+        border-radius: 0;
+    }
+    .insidebar:nth-child(1){
+        border-radius: 60% 0 0 0;
+    }
+    .insidebar:nth-child(3){
+        border-radius: 0 60% 0 0;
+    }
+}
