@@ -3,11 +3,7 @@
 
 
 <div class ="solution">
-<<<<<<< HEAD
     <h4>Solutions pour les développeurs</h4>
-=======
-    <h4>Solution pour les développeurs</h4>
->>>>>>> nico
         <ul>
             <li><a href="https://www.alzheimers.org.uk/blog/how-design-website-someone-affected-dementia" target="_blank">Alzheimer</a></li>
             <li><a href="https://www.smashingmagazine.com/2016/05/designing-a-dementia-friendly-website/" target="_blank">Smashing Magazine</a></li>
