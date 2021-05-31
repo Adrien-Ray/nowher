@@ -151,7 +151,6 @@ footer{
   #hamb_menu {
     display: block;
   }
-
   .classic_menu {
     display: none;
   }
@@ -173,21 +172,18 @@ footer{
     text-align: left;
     font-size: 1.5rem;
   }
-
   .cross1transform {
     transform: rotate(-45deg);
     position: relative;
     top: 18px;
     background-color: #2c5f8f;
   }
-
   .cross2transform {
     transform: rotate(45deg);
     position: relative;
     bottom: 2px;
     background-color: #c53c3c;
   }
-
   .barre {
     transition: 0.5s;
   }
