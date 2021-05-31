@@ -1,5 +1,4 @@
-<?php require '../includes/header.php';?>
-<?php include "../includes/sidebar.php"; ?>
+<?php include "../includes/header.php"; ?>
 
 <div class = "landingpage">
     <p class = "landingpage_texte">

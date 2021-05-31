@@ -1,5 +1,4 @@
 <?php include "../includes/header.php"; ?>
-<?php include "../includes/sidebar.php"; ?>
 
 <div class = "mentions_legales">
     <h1>Mentions légales</h1>
