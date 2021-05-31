@@ -11,14 +11,6 @@ session_start();
     <meta name="Nowher" content="Ce site sensibilise le public aux problèmatiques que rencontrent les déficients mentaux sur le web.">
     <link rel="shortcut icon" href="../assets/logo/nowhereblanc.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/main.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="../styles/article.css">
-    <title>Nowher</title>
-</head>
-<body>
-<script src="../scripts/fontsize.js"></script>
-    
-=======
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/sidebar.css">
     <title>Nowher</title>
@@ -70,4 +62,3 @@ session_start();
     </div>
 <div class="content">
 
->>>>>>> 352ebbad830168fbdd840d50ae813e71301637f4
