@@ -38,12 +38,10 @@
 .article__img{
     width: 370px;
     height: auto;
-    margin-left: 50px;
 }
 .article_donnees-chiffrees__img{
     width: 370px;
     height: auto;
-    margin-left: 50px;
 }
 .articledemence__sous_titre{
     margin-top: 215px;
@@ -107,6 +105,30 @@ li{
 }
 .article_image_etienne{
     text-align: center;
+}
+/* MEDI QUERIES */
+@media screen and (max-width: 768px) {
+    .articledemence{
+        flex-direction: column-reverse;
+    }
+    .article__img{
+        max-width: 200px;
+        align-self: center;
+    }
+    .articledemence__sous_titre{
+        margin-top: 0;
+    }
+    .donnees-chiffrees{
+        flex-direction: column-reverse;
+    }
+    .article_donnees-chiffrees__img{
+        max-width: 200px;
+        align-self: center;
+    }
+    .donnees-chiffrees__titre{
+        margin-top: 0;
+    }
+
 }
 
 /* MEDI QUERIES */
