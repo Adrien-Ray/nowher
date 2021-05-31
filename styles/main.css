@@ -111,6 +111,7 @@ li{
     text-align: center;
 }
 
+<<<<<<< HEAD
 /* MEDI QUERIES */
 @media screen and (max-width: 768px) {
     .articledemence{
@@ -137,6 +138,9 @@ li{
 }
 
 /* script */
+=======
+/* script dyslex */
+>>>>>>> main
 span.dysb{
 	background-color:#ff00007a !important;
 }
