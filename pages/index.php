@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<?php require '../includes/header.php';?>
-
-
-<?php require '../includes/footer.php';?>
-=======
 <?php include "../includes/header.php"; ?>
 <?php include "../includes/sidebar.php"; ?>
 
@@ -33,4 +27,3 @@
 
 
 <?php include "../includes/footer.php"; ?>
->>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e

@@ -3,8 +3,6 @@
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
 }
-<<<<<<< HEAD
-=======
 /* body{
   min-height: 100vh;
 } */
@@ -19,7 +17,6 @@ a:hover{
 .content{
   margin: 0 10%;
 }
->>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
 
 header {
   display: flex;
@@ -28,35 +25,9 @@ header {
 header img {
   width: 10rem;
   height: auto;
-<<<<<<< HEAD
-}
-
-nav {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-.classic_menu {
-  padding: 0 3rem;
-}
-.classic_menu:hover {
-  background-color: #000222;
-  color: white;
-}
-
-li {
-  list-style-type: none;
-  display: none;
-}
-
-=======
   padding-left: 10%;
 }
 
->>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
 #hamb_menu {
   position: absolute;
   top: 2%;
@@ -70,10 +41,6 @@ li {
   margin: 5px 0;
   border-radius: 25px;
 }
-<<<<<<< HEAD
-
-@media screen and (max-width: 800px) {
-=======
 .navbar {
   overflow: hidden;
   display: flex;
@@ -179,7 +146,6 @@ footer{
   margin-top: 1rem;
 }
 @media screen and (max-width: 768px) {
->>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
   #hamb_menu {
     display: block;
   }
@@ -187,12 +153,6 @@ footer{
   .classic_menu {
     display: none;
   }
-<<<<<<< HEAD
-
-  .classic_menu ul {
-    display: flex;
-    flex-direction: column;
-=======
   #menumobile{
     position: absolute;
     background-color: #fffeee;
@@ -210,7 +170,6 @@ footer{
   #menumobile h1{
     text-align: left;
     font-size: 1.5rem;
->>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
   }
 
   .cross1transform {
