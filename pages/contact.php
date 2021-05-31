@@ -33,7 +33,7 @@
 </div>
 
     <div class ="contact_git">
-        <a href="https://github.com/Fire-Owl" target="_blank">"<img src="../assets/images/icons/github.svg" alt="" class="article__img_contact_git"></a>
+        <a href="https://github.com/Fire-Owl" target="_blank"><img src="../assets/images/icons/github.svg" alt="" class="article__img_contact_git"></a>
         <a class ="fireowl" href="https://github.com/Fire-Owl" target="_blank"> Github/fireOwl </a>
     </div>
 </div>
