@@ -21,6 +21,8 @@ a:hover{
 header {
   display: flex;
   background-color: #fffeee;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 header img {
   width: 10rem;
