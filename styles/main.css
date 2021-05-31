@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 
 
 /* articles */
 
 
-=======
 /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
->>>>>>> 4018de88a1f9cbc4d2330991b887ebfa8e066a24
 .articledemence{
     display: flex;
     flex-direction: row;
@@ -85,12 +82,13 @@ li{
     height: auto;
 }
 .contact{
-    margin-bottom: 100px;
+    margin-bottom:50px;
 }
 .contact_git{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .contact_mid{
     display: flex;
@@ -98,7 +96,29 @@ li{
     justify-content: center;
 }
 .contact_mid figure{
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+figure img{
+    transition-duration: 1s;
+    }
+figure img:hover{
+        transform: rotate(1turn);
+        transition-duration: 1s;
+        }
+.article_image_jb  figure{
     margin: 40px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.article_image_etienne figure{
+    margin: 40px;
+    text-align: center;
+    font-size: 25px;
+    
 }
 
 .fireowl{
@@ -112,6 +132,9 @@ li{
 }
 .article_image_etienne{
     text-align: center;
+}
+.article__img_note_book_mobile{
+    display: none;
 }
 
 /* script */
