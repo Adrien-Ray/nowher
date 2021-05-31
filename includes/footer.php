@@ -1,4 +1,5 @@
 </div>
+<?php include "../includes/sidebar.php"; ?>
 <footer>
 <a>Copyright@2021 - NOWHER</a>
 <a href="../pages/mentionslégales.php">Mentions légales</a>
