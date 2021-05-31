@@ -14,6 +14,18 @@ session_start();
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/sidebar.css">
     <title>Nowher</title>
+        
+    <?php
+    if (isset($_SESSION['js1']) AND $_SESSION['js1'] === '1') {
+    ?>
+    <style>
+    html{
+        font-size:120%;
+    }
+    </style>
+    <?php
+    }
+    ?>
 </head>
 <body onload="dislexNodes(document.body)">
 <header>
