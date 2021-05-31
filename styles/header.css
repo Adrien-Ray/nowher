@@ -15,18 +15,17 @@ a:hover{
   transition-duration: 0.35s;
 }
 .content{
-  margin: 0 10%;
+  margin: 1rem 10%;
 }
 
 header {
   display: flex;
+  background-color: #fffeee;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: #fffeee;
-/*   height: 6rem; */
 }
 header img {
-  width: 12rem;
+  width: 10rem;
   height: auto;
   padding-left: 10%;
 }
@@ -152,7 +151,8 @@ footer{
   #hamb_menu {
     display: block;
   }
-  .dropdown {
+
+  .classic_menu {
     display: none;
   }
   #menumobile{
@@ -177,7 +177,7 @@ footer{
   .cross1transform {
     transform: rotate(-45deg);
     position: relative;
-    top: 14px;
+    top: 18px;
     background-color: #2c5f8f;
   }
 
@@ -191,10 +191,5 @@ footer{
   .barre {
     transition: 0.5s;
   }
-  footer{
-flex-direction: column-reverse;
-align-items: flex-start;
-  }
 }
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */
-
