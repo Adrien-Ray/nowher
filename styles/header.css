@@ -151,9 +151,9 @@ footer{
   #hamb_menu {
     display: block;
   }
-  .classic_menu {
-    display: none;
-  }
+    .dropdown {
+      display: none;
+    }
   #menumobile{
     position: absolute;
     background-color: #fffeee;
@@ -187,5 +187,9 @@ footer{
   .barre {
     transition: 0.5s;
   }
+  footer{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+      }
 }
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */
