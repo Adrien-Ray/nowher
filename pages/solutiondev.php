@@ -1,4 +1,5 @@
 <?php include "../includes/header.php"; ?>
+<?php include "../includes/sidebar.php"; ?>
 
 
 <div class ="solution">
@@ -9,7 +10,7 @@
             <li><a href="https://www.researchgate.net/publication/264042211_Learning_from_people_with_dementia_to_improve_accessibility_of_website_interfaces">Research gate</a></li>
         </ul>
 </div>
-
+<?php require '../includes/footer.php';?>
 
 
 

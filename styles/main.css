@@ -3,7 +3,10 @@
 /* articles */
 
 
+<<<<<<< HEAD
 /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
+=======
+>>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
 .articledemence{
     display: flex;
     flex-direction: row;
@@ -41,12 +44,10 @@
 .article__img{
     width: 370px;
     height: auto;
-    margin-right: 390px;
 }
 .article_donnees-chiffrees__img{
     width: 370px;
     height: auto;
-    margin-right: 410px;
 }
 .articledemence__sous_titre{
     margin-top: 215px;
@@ -133,11 +134,38 @@ figure img:hover{
 .article_image_etienne{
     text-align: center;
 }
+<<<<<<< HEAD
 .article__img_note_book_mobile{
     display: none;
 }
+=======
+/* MEDI QUERIES */
+@media screen and (max-width: 768px) {
+    .articledemence{
+        flex-direction: column-reverse;
+    }
+    .article__img{
+        max-width: 200px;
+        align-self: center;
+    }
+    .articledemence__sous_titre{
+        margin-top: 0;
+    }
+    .donnees-chiffrees{
+        flex-direction: column-reverse;
+    }
+    .article_donnees-chiffrees__img{
+        max-width: 200px;
+        align-self: center;
+    }
+    .donnees-chiffrees__titre{
+        margin-top: 0;
+    }
+>>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
 
-/* script */
+}
+
+/* script dyslex */
 span.dysb{
 	background-color:#ff00007a !important;
 }

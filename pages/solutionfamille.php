@@ -1,4 +1,5 @@
 <?php include "../includes/header.php"; ?>
+<?php include "../includes/sidebar.php"; ?>
 
 
 <div class ="solution">
@@ -10,7 +11,7 @@
             <li><a href="https://www.capretraite.fr/aide-a-domicile/maintien-a-domicile/">Cap retraite</a></li>
         </ul>
 </div>
-
+<?php require '../includes/footer.php';?>
 
 
 
