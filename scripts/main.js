@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
 // MENU HAMBURGER
 const btn = document.getElementById('hamb_menu_btn');
 const dropbtn1 = document.getElementById('menumobile');
@@ -28,6 +31,10 @@ function unroll(){
         cross1.classList.toggle("cross1transform");
         cross3.classList.toggle("cross2transform");
         cross2.style.display = 'block';
+ 
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b7f64bb8990d900881ab55951da5490e4c9fd7e
