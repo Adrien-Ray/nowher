@@ -1,3 +1,8 @@
+
+
+/* articles */
+
+
 .articledemence{
     display: flex;
     flex-direction: row;
@@ -10,8 +15,34 @@
     justify-content: center;
     font-size: 30px;
 }
+.solution{
+    font-size: 30px;
+    margin-top: 100px;
+}
+.landingpage{
+    font-size: 30px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.mentions_legales{
+    font-size: 23px;
+    margin-top: 100px;
+}
+.landingpage_texte{
+    border-left: solid black 0.5rem;
+    padding-left: 1.5rem;
+}
+.landingpage .landingpage_citation{
+    font-weight: normal;
+    text-align: right;
+
+}
 .article__img{
-    width: 400px;
+    width: 370px;
+    height: auto;
+}
+.article_donnees-chiffrees__img{
+    width: 370px;
     height: auto;
 }
 .articledemence__sous_titre{
@@ -30,4 +61,81 @@ li{
 .articledemence__source{
     font-size: 30px;
     margin-top: 5rem;
+}
+.article_donnees-chirfrees{
+    font-size: 30px;
+    font-weight: 500;
+}
+.landingpage_nowher{
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 60px;
+}
+.article__img_contact{
+    margin-left: 400px;
+}
+.article__img_contact_git{
+    width: 40px;
+    height: auto;
+}
+.contact{
+    margin-bottom: 100px;
+}
+.contact_git{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.contact_mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact_mid figure{
+    margin: 40px;
+}
+
+.fireowl{
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.article_image_jb{
+    text-align: center;
+}
+.article_image_etienne{
+    text-align: center;
+}
+/* MEDI QUERIES */
+@media screen and (max-width: 768px) {
+    .articledemence{
+        flex-direction: column-reverse;
+    }
+    .article__img{
+        max-width: 200px;
+        align-self: center;
+    }
+    .articledemence__sous_titre{
+        margin-top: 0;
+    }
+    .donnees-chiffrees{
+        flex-direction: column-reverse;
+    }
+    .article_donnees-chiffrees__img{
+        max-width: 200px;
+        align-self: center;
+    }
+    .donnees-chiffrees__titre{
+        margin-top: 0;
+    }
+
+}
+
+/* script dyslex */
+span.dysb{
+	background-color:#ff00007a !important;
+}
+span.dysd{
+	background-color:#002fff7a !important;
 }
