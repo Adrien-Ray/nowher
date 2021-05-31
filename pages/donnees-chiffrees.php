@@ -2,7 +2,7 @@
 <?php include "../includes/sidebar.php"; ?>
 <div class = "donnees-chiffrees">
         <div>
-            <h4 class = "donnees-chiffrees__titre">La demence: Données chiffrées </h4>
+            <h4 class = "donnees-chiffrees__titre">La démence : Données chiffrées </h4>
         </div>
             <img src="../assets/images/icons/image-graphique.svg" alt="" class="article_donnees-chiffrees__img">
         </div>
