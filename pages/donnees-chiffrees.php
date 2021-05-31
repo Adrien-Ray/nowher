@@ -8,9 +8,15 @@
         </div>
     <div class = "article_donnees-chirfrees">
         <p>Une personne sur 8 en Europe est atteinte par la démence soit 1/3 de la population Européenne soit 179 millions d’individus.</p>
+<<<<<<< HEAD
         <h4>La maladie d'Alzheimer</h4>
         <p>D’après le rapport de l’Oms de 2015, 50 millions de personnes sont touchées par la démence et ce nombre atteindra 152 millions environ en 2050, dans lesquelles 60 et 70 % sont atteintes de la maladie de l’Alzheimer.
         <p>La maladie d’Alzheimer est la 1ère cause de démence</p>
+=======
+        <h4>La maladie d'Alzheimer :</h4>
+        <p>D’après le rapport de l’OMS de 2015, 50 millions de personnes sont touchées par la démence et ce nombre atteindra 152 millions environ en 2050, dans lesquels 60 et 70 % sont atteintes de la maladie de l’Alzheimer.
+        <p>La maladie d’Alzheimer est la première cause de démence</p>
+>>>>>>> nico
         <ul>
         <li>49 % en Asie</li>
         <li>25 % en Europe (en baisse par rapport aux chiffres de 2012)</li>

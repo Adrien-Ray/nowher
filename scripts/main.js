@@ -6,7 +6,6 @@ let cross2 = document.getElementById('barre2');
 let cross3 = document.getElementById('barre3');
 let counter = '1';
 
-
 btn.addEventListener('click',unroll);
 
 function unroll(){
