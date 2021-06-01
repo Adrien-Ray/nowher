@@ -13,11 +13,3 @@ $show = 1;
         </ul>
 </div>
 <?php require '../includes/footer.php';?>
-
-
-
-
-
-
-
-_

@@ -193,10 +193,6 @@ footer{
   footer{
     flex-direction: column-reverse;
     align-items: flex-start;
-<<<<<<< HEAD
-    height:10rem;
-    margin-top: 0;
-=======
     margin-top: 0;
     height: 10rem;
     }
@@ -207,7 +203,6 @@ footer{
     
     #coucou{
       display:flex;
->>>>>>> nico
     }
     
   .footer{
