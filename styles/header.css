@@ -63,7 +63,7 @@ header img {
 }
 
 .dropdown .dropbtn {
-  font-size: 1.2rem;  
+  font-size: 1.6rem;  
   border: none;
   color: #000222;
   padding: 33px 16px;
@@ -88,6 +88,7 @@ header img {
 
 .dropdown-content {
   display: none;
+  font-size: 1.6rem;
   position: absolute;
   background-color: #fffeee;
   color: #000222;
@@ -145,6 +146,7 @@ footer{
   height: 5rem;
   color: white;
   display: flex;
+  font-size: 1.3rem;
   justify-content: space-between;
   align-items: center;
   padding : 1rem 2rem;
