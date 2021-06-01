@@ -18,8 +18,6 @@ header img {
 
 nav {
   display: flex;
-<<<<<<< HEAD
-=======
 }
 .navbar a {
   float: left;
@@ -81,7 +79,6 @@ nav {
 }
 .column {
   float: right;
->>>>>>> d685802c19535ae30870622fde8a8fc88c9c7430
   width: 100%;
   align-items: center;
   justify-content: space-around;
@@ -119,15 +116,6 @@ li {
   #hamb_menu {
     display: block;
   }
-<<<<<<< HEAD
-
-  .classic_menu {
-    display: none;
-  }
-
-  .classic_menu ul {
-    display: flex;
-=======
     .dropdown {
       display: none;
     }
@@ -138,7 +126,6 @@ li {
     height: 100%;
     text-align: center;
     display: none;
->>>>>>> d685802c19535ae30870622fde8a8fc88c9c7430
     flex-direction: column;
   }
   .cross1transform {
