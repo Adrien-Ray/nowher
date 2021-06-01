@@ -4,6 +4,10 @@ html{
 body{
     margin:0;
 }
+.hide,.hide:active, .hide:focus{
+    border: none !important;
+    background: none !important;
+}
 /* articles */
 
 /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
@@ -22,7 +26,7 @@ body{
 .solution{
     font-size: 2rem;
     margin-top: 100px;
-    margin-bottom: 400px;
+    margin-bottom: 405px;
 }
 .landingpage{
     font-size: 2rem;
