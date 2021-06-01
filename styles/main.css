@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-/*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
-=======
 html{
     font-size: 80%;
 }
@@ -30,7 +26,11 @@ html{
     font-weight: bold;
 }
 .mentions_legales{
-    font-size: 1.5px;
+<<<<<<< HEAD
+    font-size: 1.5rem;
+=======
+    font-size: 1.5em;
+>>>>>>> 5aef9799f7a2bb0fabe277c6b8b6609afbc4c33e
     margin-top: 100px;
 }
 .landingpage_texte{
@@ -217,6 +217,9 @@ display: none;
         display:none;
     }
 }
+.solution_dev_research{
+    margin-bottom: 7rem;
+}
 
 /* MEDI QUERIES */
 @media screen and (max-width: 768px) {
@@ -250,4 +253,3 @@ span.dysb{
 span.dysd{
 	background-color:#002fff7a !important;
 }
->>>>>>> d685802c19535ae30870622fde8a8fc88c9c7430
