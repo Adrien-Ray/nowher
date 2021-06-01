@@ -23,6 +23,7 @@ header {
   background-color: #fffeee;
   align-items: flex-end;
   justify-content: space-between;
+  padding:1rem;
 }
 header img {
   width: 10rem;
@@ -33,7 +34,7 @@ header img {
 #hamb_menu {
   position: absolute;
   top: 2%;
-  right: 2%;
+  right: 1rem;
   display: none;
 }
 #hamb_menu .barre {
