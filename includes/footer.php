@@ -1,6 +1,8 @@
 </div>
-<?php include "../includes/sidebar.php"; ?>
-<footer>
+<?php 
+include "../includes/sidebar.php"; 
+ ?>
+<footer class="footer" <?php if($show==0){echo 'id="coucou"' ;}?> > 
 <p>Copyright@2021 - NOWHER</p>
 <a href="../pages/mentionslégales.php" aria-label="Accéder à la page mentions légales" role="link">Mentions légales</a>
 <a href="../pages/contact.php" aria-label="Accéder à la page contact" role=link>Contact</a>

@@ -1,4 +1,6 @@
-<?php include "../includes/header.php"; ?>
+<?php include "../includes/header.php";
+$show = 1;
+?>
 <h1 class ="contact">Contact</h1>
 <div class="mobile_notebook">
     <img src="../assets/images/icons/note_book_mobile.svg" alt="dessin d'un carnet d'adresses" class="article__img_note_book_mobile">

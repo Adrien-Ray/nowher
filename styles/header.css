@@ -178,7 +178,7 @@ footer{
   .cross1transform {
     transform: rotate(-45deg);
     position: relative;
-    top: 18px;
+    top: 15px;
     background-color: #2c5f8f;
   }
   .cross2transform {
@@ -194,5 +194,15 @@ footer{
     flex-direction: column-reverse;
     align-items: flex-start;
     }
+    
+    .footer{
+      display: none;
+    }
+    
+    #coucou{
+      display:flex;
+    }
 }
+
+
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */

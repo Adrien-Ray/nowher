@@ -1,4 +1,6 @@
-<?php include "../includes/header.php"; ?>
+<?php include "../includes/header.php";
+$show = 1;
+?>
 <div class = "donnees-chiffrees">
         <div>
             <h4 class = "donnees-chiffrees__titre">La démence : Données chiffrées </h4>
