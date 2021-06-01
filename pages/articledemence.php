@@ -15,7 +15,7 @@
             <h4 class = "articledemence__sous_titre">La démence, qu'est-ce que c'est ?</h4>
             <h4>Définition générale</h4>
         </div>
-            <img src="../assets/images/icons/imgarticle.svg" alt="" class="article__img">
+            <img src="../assets/images/icons/imgarticle.svg" alt="masque avec plusieurs personnes derrière" class="article__img">
     </div>
     <div class ="articledemence__texte">
     <p class="p">
@@ -64,7 +64,7 @@
     dernières peuvent être stables, progressives ou en rémission.</p>
     </div>
     <div class = "articledemence__source"><strong>Sources</strong><br>
-    <a href="https://ressourcessante.salutbonjour.ca/condition/getcondition/demence" target="_blank">Ressources Santé</a><br>
-    <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence" target="_blank">Psychomédia</a>
+    <a href="https://ressourcessante.salutbonjour.ca/condition/getcondition/demence" target="_blank" role="link" aria-label="lien vers le site salut bonjour.ca" role="link">Ressources Santé</a><br>
+    <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence" target="_blank" aria-label="lien vers le site Psychomédia" role="link">Psychomédia</a>
     </div>
     <?php require '../includes/footer.php';?>

@@ -76,6 +76,9 @@ header img {
 .dropdown:hover{
   background-color: #000222;
 }
+.dropdown:focus-visible{
+  background-color: red;
+}
 
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #000222;
