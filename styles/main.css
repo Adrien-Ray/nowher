@@ -26,8 +26,8 @@ html{
     font-weight: bold;
 }
 .mentions_legales{
-    font-size: 1.5rem;
-    margin-top: 10px;
+    font-size: 1.5em;
+    margin-top: 100px;
 }
 .landingpage_texte{
     border-left: solid black 0.5rem;
@@ -212,6 +212,9 @@ display: none;
     .contact{
         display:none;
     }
+}
+.solution_dev_research{
+    margin-bottom: 7rem;
 }
 
 /* MEDI QUERIES */
