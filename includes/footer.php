@@ -2,9 +2,9 @@
 <?php include "../includes/sidebar.php"; ?>
 <footer>
 <p>Copyright@2021 - NOWHER</p>
-<a href="../pages/mentionslégales.php" aria-label="Accéder à la page mentions légales" role=link>Mentions légales</a>
+<a href="../pages/mentionslégales.php" aria-label="Accéder à la page mentions légales" role="link">Mentions légales</a>
 <a href="../pages/contact.php" aria-label="Accéder à la page contact" role=link>Contact</a>
-<a href="#websitelogo" aria-label="Revenir en haut de page" role=link>Haut de page</a>
+<a href="#websitelogo" aria-label="Revenir en haut de la page" role=link>Haut de page</a>
 </footer>
 <?php
 if (isset($_SESSION['js1']) AND $_SESSION['js1'] === '1') {
