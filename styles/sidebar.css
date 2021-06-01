@@ -32,9 +32,10 @@
     .sidebar {
         width: auto;
         height: auto;
-        position: relative;
+        position: -webkit-sticky;
+        position: sticky;
         right: 0;
-        top: 0;
+        bottom: 0;
         display: flex;
         flex-direction: row;
         margin: auto;
