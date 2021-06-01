@@ -18,6 +18,70 @@ header img {
 
 nav {
   display: flex;
+<<<<<<< HEAD
+=======
+}
+.navbar a {
+  float: left;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 1.2rem;  
+  border: none;
+  color: #000222;
+  padding: 33px 16px;
+  background-color: inherit;
+  margin: 0 5rem;
+}
+#dropbtn2{
+  margin-right: 10rem;
+}
+
+.dropdown:hover{
+  background-color: #000222;
+}
+.dropdown:focus-visible{
+  background-color: red;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #000222;
+  color : white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffeee;
+  color: #000222;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.row{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.column {
+  float: right;
+>>>>>>> d685802c19535ae30870622fde8a8fc88c9c7430
   width: 100%;
   align-items: center;
   justify-content: space-around;
@@ -45,16 +109,27 @@ li {
 }
 #hamb_menu .barre {
   background-color: #000222;
+<<<<<<< HEAD
   width: 60px;
   height: 10px;
   margin: 5px 0;
   border-radius: 25px;
+=======
+  height: 5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 1rem 2rem;
+  display: flex;
+>>>>>>> d685802c19535ae30870622fde8a8fc88c9c7430
 }
 
 @media screen and (max-width: 800px) {
   #hamb_menu {
     display: block;
   }
+<<<<<<< HEAD
 
   .classic_menu {
     display: none;
@@ -62,25 +137,38 @@ li {
 
   .classic_menu ul {
     display: flex;
+=======
+    .dropdown {
+      display: none;
+    }
+  #menumobile{
+    position: absolute;
+    background-color: #fffeee;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+>>>>>>> d685802c19535ae30870622fde8a8fc88c9c7430
     flex-direction: column;
   }
-
   .cross1transform {
     transform: rotate(-45deg);
     position: relative;
     top: 18px;
     background-color: #2c5f8f;
   }
-
   .cross2transform {
     transform: rotate(45deg);
     position: relative;
     bottom: 2px;
     background-color: #c53c3c;
   }
-
   .barre {
     transition: 0.5s;
   }
+  footer{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+      }
 }
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */
