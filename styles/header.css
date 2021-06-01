@@ -149,7 +149,6 @@ footer{
   align-items: center;
   padding : 1rem 2rem;
   display: flex;
-  margin-top: 5rem;
 }
 @media screen and (max-width: 768px) {
   #hamb_menu {
@@ -194,8 +193,21 @@ footer{
   footer{
     flex-direction: column-reverse;
     align-items: flex-start;
+<<<<<<< HEAD
     height:10rem;
     margin-top: 0;
+=======
+    margin-top: 0;
+    height: 10rem;
+    }
+    
+    .footer{
+      display: none;
+    }
+    
+    #coucou{
+      display:flex;
+>>>>>>> nico
     }
     
   .footer{

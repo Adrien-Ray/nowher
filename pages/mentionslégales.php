@@ -1,4 +1,6 @@
-<?php include "../includes/header.php"; ?>
+<?php include "../includes/header.php";
+$show = 1;
+?>
 
 <div class = "mentions_legales">
     <h1>Mentions légales</h1>

@@ -1,4 +1,7 @@
-<?php include "../includes/header.php"; ?>
+<?php 
+include "../includes/header.php";
+$show = 0;
+?>
 
 <div class = "landingpage">
     <p class = "landingpage_texte">
