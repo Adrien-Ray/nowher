@@ -27,7 +27,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .sidebar {
         width: 13rem;
         height: 2rem;
