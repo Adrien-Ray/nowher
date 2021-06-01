@@ -5,7 +5,7 @@
     <p>Vie privée et cookies <br> 1.1 Lors de son inscription sur le site, l’utilisateur accepte que soient collectées et conservées les données ci-après : Nom, prénom, email, sexe, code postal, date de naissance, ville pays, adresse IP. </p>
     <p>D’autres données facultatives telles que l’adresse postale ou le numéro de téléphone peuvent également être communiquées par l’utilisateur s’il le souhaite. <br> Les données d’inscription sont utilisées : </p>
     <ul>
-        <li>pour la participation aux différents services proposés sur le site (Forums, blogs, Quizz etc)</li>
+        <li>pour la participation aux différents services proposés sur le site (forums, blogs, Quizz etc)</li>
         <li>pour la souscription par l’utilisateur à des services spécifiques (newsletter, concours),</li>
         <li>pour le fonctionnement technique et administratif du site.</li>
     </ul>

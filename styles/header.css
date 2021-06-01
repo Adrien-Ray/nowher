@@ -148,6 +148,7 @@ footer{
   align-items: center;
   padding : 1rem 2rem;
   display: flex;
+  margin-top: 5rem;
 }
 @media screen and (max-width: 768px) {
   #hamb_menu {
@@ -192,6 +193,6 @@ footer{
   footer{
     flex-direction: column-reverse;
     align-items: flex-start;
-      }
+    }
 }
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */

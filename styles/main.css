@@ -26,8 +26,8 @@ html{
     font-weight: bold;
 }
 .mentions_legales{
-    font-size: 1.5px;
-    margin-top: 100px;
+    font-size: 1.5rem;
+    margin-top: 10px;
 }
 .landingpage_texte{
     border-left: solid black 0.5rem;
