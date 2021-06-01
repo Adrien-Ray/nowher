@@ -1,6 +1,5 @@
 <?php include "../includes/header.php"; ?>
 
-<button id="fontSizeBtn">function !</button>
 
 <style>
 
