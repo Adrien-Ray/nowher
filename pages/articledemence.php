@@ -1,4 +1,6 @@
-<?php include "../includes/header.php"; ?>
+<?php include "../includes/header.php";
+$show = 1;
+?>
 
 
 <style>
@@ -63,7 +65,7 @@
     dernières peuvent être stables, progressives ou en rémission.</p>
     </div>
     <div class = "articledemence__source"><strong>Sources</strong><br>
-    <a href="https://ressourcessante.salutbonjour.ca/condition/getcondition/demence" target="_blank" role="link" aria-label="lien vers le site salut bonjour.ca" role="link">Ressources Santé</a><br>
-    <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence" target="_blank" aria-label="lien vers le site Psychomédia" role="link">Psychomédia</a>
+    <a href="https://ressourcessante.salutbonjour.ca/condition/getcondition/demence" target="_blank" role="link" aria-label="lien vers le site salut bonjour.ca">Ressources Santé</a><br>
+    <a href="http://www.psychomedia.qc.ca/diagnostics/qu-est-ce-que-la-demence" target="_blank" role="link" aria-label="lien vers le site Psychomédia">Psychomédia</a>
     </div>
     <?php require '../includes/footer.php';?>

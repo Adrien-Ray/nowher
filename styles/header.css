@@ -23,6 +23,7 @@ header {
   background-color: #fffeee;
   align-items: flex-end;
   justify-content: space-between;
+  padding:1rem;
 }
 header img {
   width: 10rem;
@@ -33,7 +34,7 @@ header img {
 #hamb_menu {
   position: absolute;
   top: 2%;
-  right: 2%;
+  right: 1rem;
   display: none;
 }
 #hamb_menu .barre {
@@ -62,7 +63,7 @@ header img {
 }
 
 .dropdown .dropbtn {
-  font-size: 1.2rem;  
+  font-size: 1.6rem;  
   border: none;
   color: #000222;
   padding: 33px 16px;
@@ -87,6 +88,7 @@ header img {
 
 .dropdown-content {
   display: none;
+  font-size: 1.6rem;
   position: absolute;
   background-color: #fffeee;
   color: #000222;
@@ -144,6 +146,7 @@ footer{
   height: 5rem;
   color: white;
   display: flex;
+  font-size: 1.3rem;
   justify-content: space-between;
   align-items: center;
   padding : 1rem 2rem;
@@ -177,7 +180,7 @@ footer{
   .cross1transform {
     transform: rotate(-45deg);
     position: relative;
-    top: 18px;
+    top: 15px;
     background-color: #2c5f8f;
   }
   .cross2transform {
@@ -192,6 +195,26 @@ footer{
   footer{
     flex-direction: column-reverse;
     align-items: flex-start;
-      }
+    margin-top: 0;
+    height: 10rem;
+    }
+    
+    .footer{
+      display: none;
+    }
+    
+    #coucou{
+      display:flex;
+    }
+    
+  .footer{
+    display: none;
+  }
+  
+  #coucou{
+    display:flex;
+  }
 }
+
+
 /*# sourceMappingURL=header.css.map *//*# sourceMappingURL=header.css.map */

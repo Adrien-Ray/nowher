@@ -29,7 +29,7 @@ session_start();
 </head>
 <body onload="dislexNodes(document.body)">
 <header role=”banner”>
-    <a href="index.php" role="link" aria-label="accéder à la page d'accueil"><img src="../assets/logo/nowhere.png" alt="logo du site" id="websitelogo"></a>
+    <a href="index.php" aria-label="aller à la page d'accueil"><img src="../assets/logo/nowhere.png" lang="en" alt="logo du site" id="websitelogo"></a>
     <div id="hamb_menu" aria-label="accéder au menu en version mobile" role="navigation">
         <div id="hamb_menu_btn">
             <div class="barre" id='barre1'></div>
@@ -37,7 +37,7 @@ session_start();
             <div class="barre" id='barre3'></div>
         </div>
     </div> <!-- fermeture hamb_menu -->
-        <div class="dropdown" id="dropbtn1" role="navigation">
+        <div class="dropdown" id="dropbtn1">
         <button class="dropbtn">La démence 
         </button>
         <div class="dropdown-content" id="dropcontent1">  
@@ -49,7 +49,7 @@ session_start();
         </div><!-- ferme row -->
         </div><!-- ferme dropdown content -->
     </div> <!-- ferme dropdown -->
-    <div class="dropdown" id="dropbtn2" role="navigation">
+    <div class="dropdown" id="dropbtn2">
         <button class="dropbtn">Les solutions 
         </button>
         <div class="dropdown-content" id="dropcontent2">  
@@ -62,7 +62,7 @@ session_start();
         </div><!-- ferme dropdown content -->
     </div> <!-- ferme dropdown -->
 </header>
-    <div id="menumobile" role="navigation">
+    <div id="menumobile">
         <h1>La démence</h1>
 <!--         <div class="link-demence"> -->
         <a href="articledemence.php" aria-label="lire l'article des explications">Explications</a><br>
