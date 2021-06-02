@@ -1,0 +1,13 @@
+/* .moon_404{
+    width: 100%;
+    height: 100%;
+} */
+.body_moon{
+    background-image: url('../assets/images/pictures/moon-404.png') ;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    height: 99vh;
+    overflow: hidden; 
+    
+}
