@@ -29,15 +29,13 @@ session_start();
 </head>
 <body onload="dislexNodes(document.body)">
 <header role=”banner”>
-    <a href="index.php" aria-label="aller à la page d'accueil"><img src="../assets/logo/nowhere.png" alt="logo du site" id="websitelogo"></a>
+    <a href="index.php" aria-label="aller à la page d'accueil"><img src="../assets/logo/nowhere.png" lang="en" alt="logo du site" id="websitelogo"></a>
     <div id="hamb_menu" aria-label="accéder au menu en version mobile" role="navigation">
-        <button class="hide">
         <div id="hamb_menu_btn">
             <div class="barre" id='barre1'></div>
             <div class="barre" id='barre2'></div>
             <div class="barre" id='barre3'></div>
         </div>
-        </button>
     </div> <!-- fermeture hamb_menu -->
         <div class="dropdown" id="dropbtn1">
         <button class="dropbtn">La démence 
