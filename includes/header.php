@@ -40,15 +40,15 @@ session_start();
         </button>
     </div> <!-- fermeture hamb_menu -->
         <div class="dropdown" id="dropbtn1">
-        <button class="dropbtn">La démence 
-        </button>
-        <div class="dropdown-content" id="dropcontent1">  
-        <div class="row">
-            <div class="column">
-            <a href="articledemence.php" aria-label="lire l'article des explications" role="link">Explications</a>
-            <a href="donnees-chiffrees.php" aria-label="lire l'article des statistiques" role="link">Données chiffrées</a>
-            </div> <!-- column -->
-        </div><!-- ferme row -->
+            <button class="dropbtn">La démence 
+            </button>
+            <div class="dropdown-content" id="dropcontent1">  
+            <div class="row">
+                <div class="column">
+                <a href="articledemence.php" aria-label="lire l'article des explications" role="link">Explications</a>
+                <a href="donnees-chiffrees.php" aria-label="lire l'article des statistiques" role="link">Données chiffrées</a>
+                </div> <!-- column -->
+            </div><!-- ferme row -->
         </div><!-- ferme dropdown content -->
     </div> <!-- ferme dropdown -->
     <div class="dropdown" id="dropbtn2">
